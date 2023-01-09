@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{padding: 0; margin: 0;}
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: dimgray;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.container{
+    width: 1170px;
+    margin:auto;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    text-transform: uppercase;
+    padding: 12px 19px;
+    font-weight: 700;
+    background: #1bbfb8;
+    text-decoration: none;
+    color: white;
+}
+/* ============================================ */
+
+/*slider start*/
+.slider{
+    background-image: url("images/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 932px;
+}
+.sliderleft{
+    width: 49%;
+}
+.sliderRight{
+    width: 49%;
+}
+
+.sliderRight h1 {font-weight: bold;font-size: 49px;color: black;}
+
+.sliderRight p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+/*slider end*/
+
+
+/*about start*/
+.about{
+    padding: 55px 0px;
+}
+.about-ul img {
+    width: 12px;
+}
+.about-ul li {
+    list-style: none;
+}
+
+.aboutRight h1 {
+    font-size: 57px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.aboutRight p {
+    font-size: 15px;
+}
+
+.about-ul {
+    margin-top: 29px;
+}
+
+.about-ul li {
+    margin: 6px 0px;
+}
+
+.aboutRight {
+    padding: 0px 67px;
+}
+/*about end*/
+
+/*Plan start*/
+.Plans {
+    padding: 80px 0px;
+}
+.box{
+    width: 24%;
+    text-align: center;
+    padding: 4px;
+}
+
+.planTitle {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.box h1 {
+    color: black;
+    font-size: 32px;
+}
+
+.box span {
+    font-size: 32px;
+}
+/*Plan end*/
+
+/*newsWrapper start*/
+
+.newsWrapper{
+    background-image: url(" images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.NewsContent {
+    padding: 100px 0px;
+    margin-bottom: 50px;
+}
+
+.NewsContent h1 {
+    padding-left: 30px;
+    padding-right: 576px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.btns{
+    padding: 12px 19px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    background: white;
+    border-radius: 4px;
+    color: orange;
+    margin-left: 30px;
+}
+
+/*newsWrapper start*/
+
+/*footer start*/
+.footer{
+    background-color: #151414;
+    padding: 120px 0px;
+}
+.footerleft {
+    padding-right: 407px;
+}
+.footerleft h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.footerleft p {
+    font-size: 20px;
+    padding: 11px 0px;
+    color: #cbc9c9;
+}
+
+.footerleft h5 {font-size: 20px;margin-bottom: 5px; color: #cbc9c9; }
+
+.footerRight h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
+.footerRight input {
+    margin-bottom: 37px;
+    margin-top: 10px;
+    padding: 14px;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.social {
+    margin-top: 25px;
+}
+/*footer end*/
